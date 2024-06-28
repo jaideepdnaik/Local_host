@@ -1,31 +1,69 @@
-[{
-        "id": "1",
-        "username": "john_doe",
-        "email": "john.doe@example.com",
-        "password": "password1"
-    },
-    {
-        "id": "2",
-        "username": "jane_smith",
-        "email": "jane.smith@example.com",
-        "password": "password2"
-    },
-    {
-        "id": "3",
-        "username": "alice_wonderland",
-        "email": "alice.wonderland@example.com",
-        "password": "password3"
-    },
-    {
-        "id": "4",
-        "username": "bob_jackson",
-        "email": "bob.jackson@example.com",
-        "password": "password4"
-    },
-    {
-        "id": "5",
-        "username": "emma_jones",
-        "email": "emma.jones@example.com",
-        "password": "password5"
-    }
+[
+  {
+    "id": "1",
+    "username": "admin",
+    "email": "admin@example.com",
+    "isAdmin": true,
+    "password": "adminpassword"
+  },
+  {
+    "id": "2",
+    "username": "john_doe",
+    "email": "john.doe@example.com",
+    "password": "password1"
+  },
+  {
+    "id": "3",
+    "username": "jane_smith",
+    "email": "jane.smith@example.com",
+    "password": "password2"
+  },
+  {
+    "id": "4",
+    "username": "alice_wonderland",
+    "email": "alice.wonderland@example.com",
+    "password": "password3"
+  },
+  {
+    "id": "5",
+    "username": "bob_jackson",
+    "email": "bob.jackson@example.com",
+    "password": "password4"
+  },
+  {
+    "id": "6",
+    "username": "emma_jones",
+    "email": "emma.jones@example.com",
+    "password": "password5"
+  },
+  {
+    "id": "deebb7cc-c078-4db5-8130-33c2c8cbd739",
+    "username": "nixx_code",
+    "email": "nixcode@gmail.com",
+    "password": "123"
+  },
+  {
+    "id": "a2e98463-da46-47fe-8942-62767fc8b822",
+    "username": "anonymousssss",
+    "email": "abc@gmail.com",
+    "password": "$2a$12$dJ8EnziqSzdlab4kFW6XBevLVHlwpkoGS8hrkNZqCZavf57LDF4VS"
+  },
+  {
+    "id": "e6d097f3-e39f-4c10-9a44-b2ad55794333",
+    "username": "jaideep",
+    "email": "j@gmail.com",
+    "password": "$2a$10$TNH74FYAN1h2NWy0na7MWeH4JjsSgrrlnqlfMFLYVFwoFeeuWuZHa"
+  },
+  {
+    "id": "4d7979cd-c43c-41c2-adda-98950583a59b",
+    "username": "manishn",
+    "email": "manish@gmail.com",
+    "password": "$2a$10$E.1hk/aC.vPaFIE0SuFaz.22LaG/Q0q4gc77.4necl2Z1AMyGgCf2"
+  },
+  {
+    "id": "f70b4014-9fc8-4251-bf6a-0efe08936bec",
+    "username": "randomuser123",
+    "email": "abcfd@gmail.com",
+    "password": "$2a$10$mB5TlBy5czUEL1Yt.rUjxuTxzqxiVSG8SFoVVJZofxr0TG30A.EZO"
+  }
 ]

@@ -8,40 +8,40 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-}
-
-h1 {
+  }
+  
+  h1 {
     color: #333;
-}
-
-form {
+  }
+  
+  form {
     display: flex;
     flex-direction: column;
-}
-
-label,
-input {
+  }
+  
+  label, input {
     margin: 5px 0;
-}
-
-button {
+  }
+  
+  button {
     margin-top: 10px;
     padding: 10px;
     background-color: #007BFF;
     color: white;
     border: none;
     cursor: pointer;
-}
-
-button:hover {
+  }
+  
+  button:hover {
     background-color: #0056b3;
-}
-
-a {
+  }
+  
+  a {
     margin-top: 20px;
     color: #007BFF;
-}
-
-a:hover {
+  }
+  
+  a:hover {
     text-decoration: underline;
-}
+  }
+  
