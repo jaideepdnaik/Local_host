@@ -1,0 +1,21 @@
+{
+    "name": "user_management",
+    "version": "1.0.0",
+    "description": "The User Management Express App is a simple web application that allows users to sign up, log in, and manage their profiles. It is built using Node.js and Express and uses a JSON file for data storage instead of a traditional database.",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "ejs": "^3.1.10",
+        "express": "^4.19.2",
+        "method-override": "^3.0.0",
+        "nodemon": "^3.1.4",
+        "uuid": "^10.0.0"
+    }
+}
