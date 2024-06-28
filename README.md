@@ -20,7 +20,7 @@ The User Management Express App is a simple web application that allows users to
 1. **Clone the repository**
     ```sh
     git clone https://github.com/yourusername/User-Management-Express-App.git
-    cd User-Management-Express-App
+    cd User-Management
     ```
 
 2. **Install dependencies**
