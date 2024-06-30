@@ -3,6 +3,7 @@ const fs = require("fs");
 const methodOverride = require('method-override');
 const session = require("express-session");
 const path = require("path");
+const bcrypt = require('bcryptjs'); // Use bcryptjs
 const app = express();
 
 app.use(methodOverride('_method'));
@@ -26,15 +27,15 @@ app.get("/", (req, res) => {
     res.render("home.ejs", { count: users.length });
 });
 
-//Login Route
+// Login Route
 app.get('/login', (req, res) => {
     res.render("login.ejs");
 });
-app.post("/login", (req, res) => {
+app.post("/login", async(req, res) => {
     let { username, password } = req.body;
     let users = JSON.parse(fs.readFileSync(path.join(__dirname, "data/users.json")));
-    let user = users.find(u => u.username === username && u.password === password);
-    if (user) {
+    let user = users.find(u => u.username === username);
+    if (user && await bcrypt.compare(password, user.password)) {
         req.session.user = user;
         res.render("login.ejs", { user });
     } else {
@@ -45,7 +46,7 @@ app.post("/login", (req, res) => {
 app.get("/logout", (req, res) => {
     req.session.destroy();
     res.redirect("/login");
-})
+});
 
 app.listen(8080, () => {
     console.log("Server is running on port http://localhost:8080");
